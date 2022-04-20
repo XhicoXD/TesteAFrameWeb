@@ -5,12 +5,20 @@
   </head>
   <body>
     <a-scene>
-      <a-entity rotation="30 0 30" position="0 0 -1">
-        <a-box position="-1 0.5 -3" rotation="0 0 0" color="#4CC3D9"></a-box>
-        <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-entity rotation="0 0 0" position="0 0 -1">
+        <a-box 
+          position="-1 0.5 -3" 
+          rotation="0 0 0" 
+          color="#4CC3D9"
+        ></a-box>
+        <a-sphere 
+          position="0 1.25 -5" 
+          radius="1.25" 
+          color="#EF2D5E"
+        ></a-sphere>
         <a-cylinder
           position="1 0.75 -3"
-          rotation="-90 15 0"
+          rotation="0 15 0"
           radius="0.5"
           height="1.5"
           color="#FFC65D"
@@ -22,6 +30,13 @@
           height="4"
           color="#7BC8A4"
         ></a-plane>
+        <a-torus-knot
+          position="-4 2 -4"
+          color="#B84A39"
+          radius="5"
+          radius-tubular="0.1"
+          normal-scale="1"
+        ></a-torus-knot>  
         <a-sky color="#ECECEC"></a-sky>
       </a-entity>
     </a-scene>
